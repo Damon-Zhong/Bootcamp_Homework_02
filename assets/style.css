@@ -1,0 +1,38 @@
+header{
+    background-color: #17a2b8;
+    text-align: center;
+    height: 1.5em;
+    line-height: 1.5em;
+    font-size: 280%;
+}
+
+h3{
+    color: #17a2b8;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+body{
+    background-color: grey;
+}
+nav{
+    background-color: ivory;
+    margin-bottom: 3%;
+}
+
+.active{
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20%;
+    margin: 2%;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+    opacity: 0.6;
+    text-align: center;
+}
