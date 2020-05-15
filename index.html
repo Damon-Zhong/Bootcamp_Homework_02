@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Dunkin the Corgi</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+
 
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
@@ -15,27 +17,50 @@
 </head>
 
 <body>
-    <header class="header">
-        Dunkins the Corgi
+    <!-- Page Heading -->
+    <header class="header text-light">
+        Dunkin
     </header>
 
+    <!-- Navbar -->
     <nav>
-        <ul class="nav nav-pills nav-fill">
+        <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Much longer nav link</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
-        </ul>
+          </ul>
     </nav>
+
+    <div class="container">
+
+        <!-- Photo Card -->
+        <div class="card">
+            <h3>About me</h3>
+            <hr/>
+            <img src="./assets/bgimg.jpg" class="card-img-top" alt="corgi puppy">
+            <div class="card-body">
+              <p class="card-text">Dunkin is a extremely active Pembroke Welsh corgi. He is yellow and white, tail-less. His favourite activities include ball fetching, barking and eating. Explore the website to find out more about Dunkin!</p>
+            </div>
+        </div>
+
+    </div>
    
+    <!-- footer (fixed footage)-->
+    <footer>
+        <div class="alert alert-dark" role="alert">
+            Dunkin (c) 2020 Yuqi Zhong
+        </div>
+    </footer>
+
     
 </body>
 </html>
