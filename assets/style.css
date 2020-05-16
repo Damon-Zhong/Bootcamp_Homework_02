@@ -72,6 +72,10 @@ footer {
     
 }
 
+form{
+    margin: 2%;
+}
+
 @media all and (min-width:640px){
     header{
         /* display: inline-block; */
