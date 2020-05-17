@@ -28,6 +28,9 @@ nav{
     border: 2px solid #000;
     border-radius: 20%;
     margin: 2%;
+    text-decoration: none;
+    background-color: #17a2b8;
+    color: ivory;
 }
 
 footer {
