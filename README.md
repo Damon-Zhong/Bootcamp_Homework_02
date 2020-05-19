@@ -1,8 +1,8 @@
 # Bootcamp_Homework_02
-Bootcamp homework 02
+This is Homework 02 of bootcamp
 
-- This is an desciptive application about my dog Dunkin
+- This is an desciptive website about my dog Dunkin
 
 - Contains three main pages: index, portfolio, and contact page
 
-- 
+- https://damon-zhong.github.io/Responsiveness-Portfolio/index.html
