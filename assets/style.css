@@ -33,6 +33,10 @@ nav{
     color: ivory;
 }
 
+.indeximage{
+    height: 30px;
+}
+
 footer {
     position: fixed;
     bottom: 20px;
