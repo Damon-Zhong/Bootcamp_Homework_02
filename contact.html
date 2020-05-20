@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunkin the Corgi</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,18 +33,18 @@
         </header>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li> -->
-          </ul>
+        </ul>
     </nav>
 
     <!-- Form -->
@@ -45,48 +53,47 @@
 
         <div class="card">
             <div class="row">
-              <h3>Contact me</h3>
+                <h3>Contact me</h3>
             </div>
-            <hr/>
-            <div class="row">   
+            <hr />
+            <div class="row">
                 <div class="card-body">
                     <form>
                         <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="First Last">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your info with anyone else.</small>
 
-                            <label for="exampleInputEmail1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your info with anyone else.</small>
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="First Last">
+                            <small class="form-text text-muted">We'll never share your info with anyone else.</small>
+
+                            <label for="formGroupExampleInput2">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="example@gmail.com">
+                            <small class="form-text text-muted">We'll never share your info with anyone else.</small>
 
                             <div class="mb-3">
                                 <label for="validationTextarea">Message</label>
-                                <textarea class="form-control" rows=5 id="validationTextarea" placeholder="Send me a message"></textarea>
-                                
+                                <textarea class="form-control" rows=5 id="validationTextarea"
+                                    placeholder="Send me a message"></textarea>
+
                             </div>
 
                         </div>
-                        <!-- <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div> -->
+                    
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
+            </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="alert alert-dark" role="alert">
-            Dunkin (c) 2020 Yuqi Zhong
-        </div>
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <div class="alert alert-dark" role="alert">
+                Dunkin (c) 2020 Yuqi Zhong
+            </div>
+        </footer>
 
 </body>
+
 </html>
